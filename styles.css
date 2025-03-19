@@ -1,0 +1,112 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 10px;
+    
+  
+}
+.gridOne {
+    background-color: #b3b3b3;
+    text-align: justify;
+  
+}
+ 
+.gridTwo {
+     display: grid;
+     grid-template-columns: 1fr 1fr 2fr;
+}
+ 
+ .gridTwo .red { 
+    background-color: red;  
+}
+ .gridTwo .blue { 
+    background-color: blue;
+}
+ .gridTwo .yellow { 
+    background-color: yellow; 
+}
+ 
+ .gridThree {
+     display: grid;
+     grid-template-rows: 1fr 3fr;
+     width: 500px;
+     height: 300px;
+     margin-bottom: 0;
+     background-color: lightblue; 
+    }
+ 
+ .gridThree .line { 
+    background-color: lightblue;
+     
+}
+ .gridThree .image img {
+     width: 500px;
+     height: 225px;
+     object-fit: cover;
+ }
+ 
+ .gridFour {
+    width: 500px;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+  }
+  
+    #gridFourTag1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+    }  
+  
+  
+  #gridFourTag2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  }
+  
+  #gridFourTag2 p {
+    margin: 0;
+  }
+  
+ 
+  .gridFive {
+    width: 500px;
+    background-color: lightseagreen;
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+  }
+  
+  .Text {
+    color: blue;
+  }
+  
+  .Photos {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+  }
+  
+  .Photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+  .gridSix {
+    width: 500px;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    gap: 10px; 
+  }
+  
+  .icon i {
+    font-size: 40px; 
+  }
+  
+  .text p {
+    font-family: 'Rock Salt', cursive; 
+    font-size: 16px;
+    margin: 0; 
+  }
+  
